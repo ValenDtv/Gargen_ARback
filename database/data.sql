@@ -39,5 +39,7 @@ update rcell set plantid = 2 where cellid = 14;
 insert into rproduct(source, type) values (2,'seed');
 
 insert into rfetus(plant_type, userid, fetyscount) values (2,1,3);
+insert into rfetus(plant_type, userid, fetyscount) values (1,1,0);
 
 insert into rseed(plant_type, userid, seedcount) values (1,1,2);
+insert into rseed(plant_type, userid, seedcount) values (2,1,0);

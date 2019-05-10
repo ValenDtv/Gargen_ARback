@@ -22,4 +22,8 @@ urlpatterns = [
     path('thirst/', views.thirst),
     path('bugs/', views.bugs),
     path('new_plant/', views.new_plant),
+    path('seed_purchase/', views.seed_purchase),
+    path('sell_fetus/', views.sell_fetus),
+    path('update_garden/', views.update_garden),
+    path('collect_fetus/', views.collect_fetus),
 ]
