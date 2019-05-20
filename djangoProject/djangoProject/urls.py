@@ -26,4 +26,7 @@ urlpatterns = [
     path('sell_fetus/', views.sell_fetus),
     path('update_garden/', views.update_garden),
     path('collect_fetus/', views.collect_fetus),
+    path('authorization/', views.authorization),
+    path('automatic_login/', views.automatic_login),
+    path('registration/', views.registration),
 ]

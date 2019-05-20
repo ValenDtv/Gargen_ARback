@@ -31,7 +31,7 @@ insert into rcell(userid, plantid, is_dug_up, is_fertilized, weed, grass_stage, 
 
 
 insert into rplants(type_id, userid, cell, stage, points, thirst, bugs, create_time, update_time) values (1,1,12,1,6000,4,3,'09.02.2019 7:16:55','09.02.2019 14:23:17');
-insert into rplants(type_id, userid, cell, stage, points, thirst, bugs, create_time, update_time) values (2,1,14,2,2000,1,2,'25.02.2019 7:16:55','25.02.2019 14:23:17');
+insert into rplants(type_id, userid, cell, stage, points, thirst, bugs, create_time, update_time) values (1,1,14,2,2000,1,2,'25.02.2019 7:16:55','25.02.2019 14:23:17');
 
 update rcell set plantid = 1 where cellid = 12;
 update rcell set plantid = 2 where cellid = 14;

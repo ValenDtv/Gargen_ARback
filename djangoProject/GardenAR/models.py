@@ -43,7 +43,7 @@ class Plantstype(Base):
         self.fetus_max = fetus_max
 
 
-class Сells(Base):
+class Cells(Base):
     __tablename__ = 'rcell'
     cellid = al.Column("cellid", al.Integer, primary_key=True)
     userid = al.Column("userid", al.Integer)
