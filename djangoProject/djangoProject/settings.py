@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'djangoProject.wsgi.application'
 #     }
 # }
 
-DATABASE = 'postgresql://postgres:1@localhost:5432/GardenAR'
+DATABASE = 'postgresql://gardenuser:1@localhost:5432/GardenAR'
 ENGINE = al.create_engine(DATABASE)
 
 # Password validation
